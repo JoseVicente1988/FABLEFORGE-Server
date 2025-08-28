@@ -1,0 +1,6 @@
+res://RESOURCES/SCENES/loggin.tscn
+res://RESOURCES/SCENES/character_creator.tscn
+res://RESOURCES/SCRIPTS/loggin.gd
+res://RESOURCES/SCRIPTS/SINGLETON/DB.gd
+res://RESOURCES/SCRIPTS/SINGLETON/Connection.gd
+res://RESOURCES/SCRIPTS/SINGLETON/Cifrado.gd
