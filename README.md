@@ -1,14 +1,19 @@
-# MMORPG Server
+#  Godot Multiplayer Dedicated Server
 
-This repo is a personal project, produced in Godot, using the 4.3 Stable version.
+A **dedicated multiplayer server** built with **Godot 4.x**.  
+Designed to run headless from the command line, this server handles **player authentication, secure connections, and world synchronization**.  
+Powered by **SQLite** for persistent storage, **ENetMultiplayerPeer** for robust low-latency networking, and **AES encryption** for secure data exchange.  
 
-SQLite connection with ADD accounts, loggin, creation of characters.
-EnetMultiplayerPeer Create connection client/Server.
+This is not just a server — it is the **foundation of an MMORPG architecture**.
 
+---
 
+##  Features
+-  **Headless Dedicated Server**: Runs purely from console, optimized for performance.  
+-  **AES-Encrypted Communication**: Every packet is encrypted for maximum security.  
+-  **ENetMultiplayerPeer**: Reliable, battle-tested networking layer with UDP.  
+-  **SQLite Database Integration**: Lightweight, persistent storage for accounts, characters, and world data.  
+-  **Seamless Player Management**: Handles logins, spawns, and sync events.  
+-  **Modular Architecture**: Easily extendable with new game logic and features.  
 
-## Requeriments
-Godot 4.3 or better  
-Plugin Base de datos configurada (SQLite/MySQL según el caso)  
-SO Windows, linux or MacOs
-
+---
