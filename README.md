@@ -1,6 +1,6 @@
 #  Godot Multiplayer Dedicated Server
 
-A **dedicated multiplayer server** built with **Godot 4.x**.  
+A **dedicated multiplayer server** built with **Godot 4.3 Stable**.  
 Designed to run headless from the command line, this server handles **player authentication, secure connections, and world synchronization**.  
 Powered by **SQLite** for persistent storage, **ENetMultiplayerPeer** for robust low-latency networking, and **AES encryption** for secure data exchange.  
 
